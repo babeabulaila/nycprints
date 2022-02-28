@@ -14,32 +14,87 @@ code {
 
 .navbar {
   min-height: 80px;
-  font-size: 1.5em;  
+  font-size: 1.5em;    
 }
 
-.navbar-brand {
-  padding: 0 15px;
-  height: 60px;
-  line-height: 60px;
-  font-size: 1.4em;
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .nav-div{
   background-color: rgba(0, 0, 0, 0.109);
   border-radius: 30px;
+  
 }
  
-.nav-buttons{
+.nav-but{
   margin-left: 20px;
     /* background-color: rgba(0, 0, 0, 0.109); */
-  border-radius: 0px 0px 30px 30px;
+  /* border-radius: 0px 0px 30px 30px; */
   margin-top: 30px;
   box-shadow: 2px;
+  font-size: 1.5em;
+  
 } 
 
 .nav-but:hover{
 transform: scale(1.1);
+}
+
+.blog-div{
+  width:780px;
+  height: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 4px;
+  border-style: groove;
+  padding: 10px;
+  position: absolute;
+  border-radius: 10px;
+  top:50%; left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.blog-text{
+font-size: 2.9em;
+padding: 30px;
+}
+
+.title {
+  display: inline-flex;
+}
+
+.title-printz {
+  display: inline-flex;
+}
+
+.footer{
+  background-color: rgba(194, 194, 194, 0.424);
+  border-top:1px solid rgba(0, 0, 0, 0.397);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 20px;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  
+}
+
+.bottom-link{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.nav-buttons{
+  display: inline-block;
+  list-style-type: none;  
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }

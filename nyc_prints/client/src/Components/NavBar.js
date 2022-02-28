@@ -4,12 +4,8 @@ function NavBar() {
     let navigate = useNavigate();
 
   return (
-    <Navbar>
+    <Navbar className='nav'>
       <Container>
-        <div className="nav-div">
-          <Navbar.Brand href="/">NYC Printz {" "}
-          </Navbar.Brand>
-        </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <div className="drop-down">
@@ -18,6 +14,9 @@ function NavBar() {
               <Nav className="me-auto">
                 <Nav.Link className="nav-but" href="/">Home</Nav.Link>
                 <Nav.Link className="nav-but" href="/artists">Artists</Nav.Link>
+                <Nav.Link className="nav-but" href="/zines">Zines</Nav.Link>
+                <Nav.Link className="nav-but" href="/music">Music</Nav.Link>
+                <Nav.Link className="nav-but" href="/info">More Info</Nav.Link>
               </Nav>
             </div>
           </div>
